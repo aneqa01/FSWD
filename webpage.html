@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Colorful Webpage with Links, Tables, and Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      color: #333;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: #009688; /* Teal */
+    }
+
+    a {
+      color: #1976d2; /* Blue */
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #0d47a1; /* Dark Blue */
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2; /* Light Gray */
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="number"],
+    select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #4caf50; /* Green */
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #388e3c; /* Dark Green */
+    }
+
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+
+  
+
+  <h2>Hyperlinks</h2>
+  <p>Check out these links:</p>
+  <ul>
+    <li><a href="https://www.example.com">Example Website</a></li>
+    <li><a href="https://www.google.com">Google</a></li>
+    <li><a href="https://www.github.com">GitHub</a></li>
+  </ul>
+
+  <h2>Table</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Apples</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Bananas</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>Oranges</td>
+        <td>15</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Form</h2>
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="18" required>
+    <br>
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender" required>
+      <option value="">Select</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+    <br>
+    <label for="subscribe">Subscribe to Newsletter:</label>
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+
+</html>

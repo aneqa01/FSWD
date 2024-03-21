@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpage Layout</title>
+  <style>
+    /* Resetting default margin and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Container for the layout */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Header */
+    header {
+      background-color: #5e35b1; /* purple */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+    }
+
+    /* Navigation */
+    nav {
+      background-color: #512da8; /* darker purple */
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    /* Main Content */
+    .main-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .main-content .sidebar {
+      width: 30%;
+      background-color: #b39ddb; /* lavender */
+      padding: 20px;
+    }
+
+    .main-content .main-section {
+      width: 65%;
+      background-color: #fff;
+      padding: 20px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #5e35b1; /* purple */
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      width: 100%;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <h1>Submitted to Sir Junaid Nazar</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <h2>Aniqa Abbas</h2>
+        <p>Roll number: 211002</p>
+      </div>
+
+      <!-- Main Section -->
+      <div class="main-section">
+        <h2></h2>
+        <p>This is Full Stack Assignment</p>
+      </div>
+    </div>
+
+    
+  </div>
+</body>
+</html>
